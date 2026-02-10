@@ -27,4 +27,9 @@ public class Subscription{
     public String toString(){
         return "Subscription : " + name + "( $" + price + ")" ;
     }
+
+
+    public double getAnualCost(){
+        return price;
+    }
 }
