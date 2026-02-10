@@ -29,7 +29,7 @@ public class Manager {
     public double printTotalExpense(){
        double total = 0;
        for(Subscription s : mySubscriptions){
-           total += s.getAnualCost();
+           total += s.getAnnualCost();
        }
        return  total;
     }

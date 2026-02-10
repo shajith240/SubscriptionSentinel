@@ -15,7 +15,7 @@ public class RecurringSubscription extends Subscription{
       }
 
       @Override
-      public double getAnualCost(){
+      public double getAnnualCost(){
           if(billingCycle.equalsIgnoreCase("Monthly")){
               return getPrice() * 12;
           }
